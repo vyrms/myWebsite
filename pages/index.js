@@ -11,20 +11,26 @@ export default function Home() {
       {/* play thanos song */}
       <audio controls autoplay hidden src="/thanos.mp3">
       </audio>
-      <div className="flex content-evenly">
-      {/* image of me */}
-        <Image
-          priority
-          src="/profile.jpg"
-          height={500}
-          width={500}
-          alt="MyPicture"
-          className="rounded-full m-10"
-        />
-      {/* short description */}
-        <div className="my-20">
+      {/* sm:flex makes it so that it only uses flex on sm screen or larger*/}
+      <div className="sm:flex">
+        <div className="m-10">
+        {/* image of me */}
+          <Image
+            priority
+            src="/profile.jpg"
+            height={640}
+            width={640}
+            alt="MyPicture"
+            className="rounded-full max-w-xs sm:max-w-xs md:max-w-sm"
+          />
+        </div>
+        {/* short description */}
+        <div className="mx-10 my-20 min-w-md">
           <h3 className="text-5xl">Hello and welcome!</h3>
-          <p>My name is Hosei Nakajima (pronounced like Jose) and I am a full stack developer, data engineer/ analyst, and a translator.</p>
+          <div className="py-3 text-lg">
+            <p>My name is Hosei Nakajima (pronounced like Jose) and I am a full stack developer, data engineer/ analyst, and a computational biologist.</p>
+            <p></p>
+          </div>
         </div>
       </div>
     </>

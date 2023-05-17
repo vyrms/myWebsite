@@ -11,7 +11,7 @@ export const menu = [
   },
   {
     name: "Resume",
-    path: "/resume"
+    path: "/Resume 2023.pdf"
   }
 ];
 
