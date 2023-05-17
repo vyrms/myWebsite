@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import useWeb3Forms from "@web3forms/react";
+import { loadEnvConfig } from '@next/env';
 
 export default function Contact ({ settings }) {
   console.log("contact.js loaded");
@@ -19,7 +20,7 @@ export default function Contact ({ settings }) {
   });
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState(false);
-  const apiKey = settings?.w3ckey || process.env.REACT_APP_WEBFORMS_ACCESSKEY;
+  const apiKey = settings?.w3ckey || process.env.WEBFORMS_ACCESSKEY;
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
