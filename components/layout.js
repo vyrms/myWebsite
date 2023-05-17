@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '../components/navbar.js';
 
-const name = 'Your Name';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Hosei Nakajima';
+export const siteTitle = 'You like my smooth yoda?';
 
 export default function Layout({ children }) {
   console.log("layout.js loaded");

@@ -50,7 +50,7 @@ export default function Contact ({ settings }) {
         <h1 className="mt-5 mb-3 text-3xl font-semibold tracking-tight text-center">Contact</h1>
 
         <div className="grid my-10 md:grid-cols-2">
-          <div>
+          <div className="mb-3">
             {/* left side where the contact info is */}
             <h2 className="text-2xl font-semibold">
               Contact Info
