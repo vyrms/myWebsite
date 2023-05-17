@@ -12,7 +12,7 @@ export default function Home() {
       <audio controls autoplay hidden src="/thanos.mp3">
       </audio>
       {/* sm:flex makes it so that it only uses flex on sm screen or larger*/}
-      <div className="sm:flex">
+      <div className="md:flex">
         <div className="m-10">
         {/* image of me */}
           <Image
@@ -21,7 +21,7 @@ export default function Home() {
             height={640}
             width={640}
             alt="MyPicture"
-            className="rounded-full max-w-xs sm:max-w-xs md:max-w-sm"
+            className="rounded-full max-w-xs md:max-w-sm"
           />
         </div>
         {/* short description */}
