@@ -47,12 +47,12 @@ export default function Contact ({ settings }) {
       </Head>
 
       <div className="mx-10">
-        <h1 className="mt-5 mb-3 text-3xl font-semibold tracking-tight text-center dark:text-white">Contact</h1>
+        <h1 className="mt-5 mb-3 text-3xl font-semibold tracking-tight text-center">Contact</h1>
 
         <div className="grid my-10 md:grid-cols-2">
           <div>
             {/* left side where the contact info is */}
-            <h2 className="text-2xl font-semibold dark:text-white">
+            <h2 className="text-2xl font-semibold">
               Contact Me
             </h2>
             <p className="max-w-sm my-5">
