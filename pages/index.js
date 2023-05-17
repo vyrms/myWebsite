@@ -13,15 +13,15 @@ export default function Home() {
       </audio>
       {/* sm:flex makes it so that it only uses flex on sm screen or larger*/}
       <div className="md:flex">
-        <div className="m-10">
+        <div className="m-5 md:m-10">
         {/* image of me */}
           <Image
             priority
             src="/profile.jpg"
-            height={640}
-            width={640}
+            height={500}
+            width={500}
             alt="MyPicture"
-            className="rounded-full max-w-xs md:max-w-sm"
+            className="rounded-full max-w-2xs md:max-w-sm"
           />
         </div>
         {/* short description */}
