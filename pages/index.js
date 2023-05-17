@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         {/* short description */}
         <div className="mx-10 my-20 min-w-md">
-          <h3 className="text-5xl">Hello and welcome!</h3>
+          <h3 className="text-4xl">Hello and welcome!</h3>
           <div className="py-3 text-lg">
             <p>My name is Hosei Nakajima (pronounced like Jose) and I am a full stack developer, data engineer/ analyst, and a computational biologist.</p>
             <p></p>

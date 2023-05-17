@@ -76,10 +76,10 @@ export default function Navbar(props) {
 
           {/* mobile navbar menu */}
           <Disclosure.Panel className="md:hidden absolute mt-24 min-w-full">
-          <div className="h-10">
+          <div className="h-10 md:hidden">
             {menu.map((link, index) => {
               return (
-                <ul className="text-sm text-gray-600 hover:text-blue-500 dark:text-gray-400 w-full bg-white py-4">
+                <ul className="text-sm text-gray-600 hover:text-blue-500 dark:text-gray-400 w-full bg-white py-4 md:hidden">
                     <li key={index} className="px-5">
                       <Link href={link.path} className="">
                         {link.name}
