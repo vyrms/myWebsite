@@ -5,6 +5,7 @@ import { useState } from "react";
 import useWeb3Forms from "@web3forms/react";
 import { loadEnvConfig } from '@next/env';
 
+
 export default function Contact ({ settings }) {
   console.log("contact.js loaded");
   const {
