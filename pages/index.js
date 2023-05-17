@@ -9,7 +9,7 @@ export default function Home() {
         <title>Hosei Nakajima - Home</title>
       </Head>
       {/* play thanos song */}
-      <audio controls autoplay hidden src="/thanos.mp3">
+      <audio controls autoPlay hidden src="/thanos.mp3">
       </audio>
       {/* sm:flex makes it so that it only uses flex on sm screen or larger*/}
       <div className="md:flex">
