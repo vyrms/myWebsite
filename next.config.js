@@ -5,6 +5,11 @@ const nextConfig = {
   experimental: {
     appDir: true
   },
+  // Need this for i18n
+  i18n: {
+    locales: ['en-US', 'ja-JP'],
+    defaultLocale: 'en-US',
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     dangerouslyAllowSVG: true,
@@ -35,6 +40,8 @@ const nextConfig = {
     return config;
   },
 };
+
+
 
 module.exports = nextConfig;
 

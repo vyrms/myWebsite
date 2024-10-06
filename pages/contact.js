@@ -70,7 +70,7 @@ export default function Contact ({ settings }) {
                 <rect x="3" y="5" width="18" height="14" rx="2" />
                 <path fill="white" d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" />
               </svg>
-              <Link href="mailto:migitarion168@gmail.com">migitarion168@gmail.com</Link>
+              <Link href="mailto:hosei.nakajima1@gmail.com">hosei.nakajima1@gmail.com</Link>
             </div>
             <div className="mt-1 mb-3 flex">
               <svg className="w-4 h-4 mt-1 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

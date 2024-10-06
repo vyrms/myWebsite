@@ -4,17 +4,17 @@ import Link from 'next/link';
 import Navbar from '../components/navbar.js';
 
 const name = 'Hosei Nakajima';
-export const siteTitle = 'You like my smooth yoda?';
+export const siteTitle = "Welcome to Hosei Nakajima's Website";
 
 export default function Layout({ children }) {
   console.log("layout.js loaded");
   return (
     <>
       <Head>
-        <link rel="icon" href="/smooth_yoda.ico" />
+        <link rel="icon" href="/profile1.ico" />
         <meta
           name="description"
-          content="You like my smooth yoda?"
+          content="Welcome to Hosei Nakajima's Website"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />

@@ -15,7 +15,7 @@ export const menu = [
   },
   {
     name: "Resume",
-    path: "/Resume 2023.pdf"
+    path: "/resume.pdf"
   }
 ];
 
@@ -30,7 +30,10 @@ export default function Navbar(props) {
         <Link className="font-bold text-xl px-5" href="/">
           Hosei Nakajima
         </Link>
+        
+        {/* language button */}
       </div>
+
 
       <Disclosure>
         {({ open }) => (
