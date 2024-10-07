@@ -10,12 +10,20 @@ export const menu = [
     path: "/"
   },
   {
-    name: "Contact",
-    path: "/contact"
-  },
-  {
     name: "Resume",
     path: "/resume.pdf"
+  },
+  {
+    name: "Publications",
+    path: "/publications"
+  },
+  {
+    name: "Blog",
+    path: "/blog"
+  },
+  {
+    name: "Contact",
+    path: "/contact"
   }
 ];
 
@@ -23,7 +31,7 @@ export default function Navbar(props) {
 
   console.log("navbar.js loaded");
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
   return (
     <div className="flex items-center justify-between md:flex-nowrap bg-base-100 md:gap-10 py-5">
       <div className="">
@@ -61,7 +69,6 @@ export default function Navbar(props) {
             </svg>
           </Disclosure.Button>
 
-
           {/* navbar menu */}
           <div className="hidden md:ml-6 md:inline-flex">
             {menu.map((link, index) => {
@@ -84,9 +91,9 @@ export default function Navbar(props) {
               return (
                 <ul className="text-sm text-gray-600 hover:text-blue-500 dark:text-gray-400 w-full bg-white py-4 md:hidden">
                     <li key={index} className="px-5">
-                      <Link href={link.path} className="">
+                      <Disclosure.Button as={Link} href={link.path}>
                         {link.name}
-                      </Link>
+                      </Disclosure.Button>
                     </li>
                 </ul>
               );

@@ -6,7 +6,7 @@ export default function About () {
   return (
   	<>
   	  <Head>
-        <title>Hosei Nakajima - About</title>
+        <title>About - Hosei Nakajima</title>
       </Head>
   	  <div>This is about page</div>
     </>
