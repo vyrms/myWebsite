@@ -11,7 +11,7 @@ export const menu = [
   },
   {
     name: "Resume",
-    path: "/resume.pdf"
+    path: "/resume"
   },
   {
     name: "Publications",
