@@ -28,5 +28,7 @@
     transform: scale(0.58);
     min-height: 2000px;
     margin-right: -10px;
+    margin-top: -250px;
+    margin-bottom: -250px;
   }
 }
