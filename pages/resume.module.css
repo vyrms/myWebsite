@@ -20,15 +20,15 @@
   .googleDocsIframeContainer {
     display: flex; 
     min-height: 1500px;
-    margin-top: -200px;
-    margin-bottom: -700px;
+    margin-top: -220px;
+    margin-bottom: -600px;
   }
   .googleDocsIframe {
     display: flex; 
     transform: scale(0.4);
     min-height: 1500px;
     margin-right: -10px;
-    margin-top: -200px;
-    margin-bottom: -700px;
+    margin-top: -220px;
+    margin-bottom: -600px;
   }
 }
