@@ -20,10 +20,11 @@
   .googleDocsIframeContainer {
     margin-top: -250px;
     margin-bottom: -250px;
+    min-height: 1500px;
   }
   .googleDocsIframe {
     transform: scale(0.58);
-    height: 1500px;
-    margin-right: -20px;
+    min-height: 1500px;
+    margin-right: -10px;
   }
 }
