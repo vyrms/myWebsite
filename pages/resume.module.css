@@ -19,16 +19,16 @@
 @media only screen and (max-width: 768px) {
   .googleDocsIframeContainer {
     display: flex; 
-    min-height: 1500px;
+    min-height: 1600px;
     margin-top: -220px;
-    margin-bottom: -600px;
+    margin-bottom: -650px;
   }
   .googleDocsIframe {
     display: flex; 
     transform: scale(0.4);
-    min-height: 1500px;
+    min-height: 1600px;
     margin-right: -10px;
     margin-top: -220px;
-    margin-bottom: -600px;
+    margin-bottom: -650px;
   }
 }
