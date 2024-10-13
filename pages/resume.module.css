@@ -2,9 +2,11 @@
 
 .googleDocsIframeContainer {
   display: flex; 
+  position: relative;
   justify-content: center;
-  min-height: 1250px;
+  height: 1250px;
   margin-top: -50px;
+  margin-bottom: -50px;
   width: 100%;
 }
 
@@ -13,22 +15,25 @@
   position: absolute;
   display: flex; 
   width: 835px;
-  min-height: 1250px;
+  height: 1250px;
 }
 
 @media only screen and (max-width: 768px) {
   .googleDocsIframeContainer {
-    display: flex; 
-    min-height: 1700px;
-    margin-top: -220px;
-    margin-bottom: -700px;
+    height: 1200px;
+    margin-top: -100px;
   }
   .googleDocsIframe {
-    display: flex; 
-    transform: scale(0.4);
-    min-height: 1700px;
-    margin-right: -10px;
-    margin-top: -220px;
-    margin-bottom: -700px;
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .googleDocsIframeContainer {
+    height: 1000px;
+    margin-top: -250px;
+  }
+  .googleDocsIframe {
+    transform: scale(0.6);
   }
 }
