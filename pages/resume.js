@@ -1,20 +1,20 @@
 import Head from 'next/head';
-import Link from "next/link";
+import styles from './resume.module.css'
 
-export function resizeIframe(obj) {
-  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-}
+
+const url = "https://docs.google.com/document/d/e/2PACX-1vRLih-9USPR7JFku8Qzu7Ef_G76ihRag8zWMR_PhW9682kpuy21ZUcpBayxDKtmjxqrCTg8CV7CKWQn/pub?embedded=true"
+
 
 export default function Resume () {
   console.log("resume.js loaded");
-  
+
   return (
   	<>
   	  <Head>
         <title>Resume - Hosei Nakajima</title>
       </Head>
-  	  <div class="">
-        <iframe src="https://docs.google.com/document/d/1ZUoj-oRuycaEYWBf08LV3g7XxPAtWNGXI_Z69U4OYR4/edit?usp=sharing" width='100%' height='1200px'></iframe>
+  	  <div className={styles.googleDocsIframeContainer}>
+        <iframe src={url} className={styles.googleDocsIframe}></iframe>
       </div>
     </>
   )

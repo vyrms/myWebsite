@@ -1,0 +1,17 @@
+/* resume.module.css */
+
+.googleDocsIframeContainer {
+  display: flex; 
+  justify-content: center;
+  height: 1500px;
+}
+
+.googleDocsIframe {
+  z-index:-1;
+  display: flex; 
+  overflow: hidden;
+  width: 835px;
+  height: 1500px;
+}
+
+
