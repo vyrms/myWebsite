@@ -25,6 +25,7 @@
 }
 
 .publicationInfo {
+  overflow-wrap: break-word;
   padding: 15px;
 }
 
