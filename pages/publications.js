@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import Link from "next/link";
-import { useForm } from "react-hook-form";
-import { useState } from "react";
-import useWeb3Forms from "@web3forms/react";
-import { loadEnvConfig } from '@next/env';
+import styles from './publications.module.css'
 
 export default function Publications(){
   console.log("publications.js loaded");
@@ -16,24 +13,27 @@ export default function Publications(){
       <div className="mx-10">
         <h1 className="mt-5 mb-3 text-3xl font-semibold tracking-tight text-center">Publications</h1>
 
-        <div className="py-3 text-lg">
-          <p>These are my publications. </p>
-          <p></p>
-        </div>
-
         {/* TODO add descriptions */}
-        <ol>
-          <li key={1}>
-            <Link href="https://doi.org/10.1016/j.ygeno.2021.04.020" class="hover:text-blue-500">
-              Loss of coordinated expression between ribosomal and mitochondrial genes revealed by comprehensive characterization of a large family with a rare Mendelian disorder
+        <div className={styles.publicationList}>
+          <div className={styles.publicationContainer}>
+            <Link href="https://doi.org/10.1016/j.ygeno.2021.04.020" style={{ textDecoration: 'none' }}>
+              <div className={styles.publicationInfo}>
+                <p className={styles.publicationTitle}>Loss of coordinated expression between ribosomal and mitochondrial genes revealed by comprehensive characterization of a large family with a rare Mendelian disorder</p>
+                <p className={styles.publicationAuthors}>Brendan Panici, Hosei Nakajima, Colleen M. Carlston, Hakan Ozadam, Can Cenik, Elif Sarinay Cenik</p>
+                <p className={styles.publicationJournal}>Genomics. 2021 Apr;:.doi: https://doi.org/10.1016/j.ygeno.2021.04.020</p>
+              </div>
             </Link>
-          </li>
-          <li key={2}>
-            <Link href="https://iovs.arvojournals.org/article.aspx?articleid=2779820" class="hover:text-blue-500">
-              Artificial neural network-based classification of Age-related Macular Degeneration using gene expression profiles.
+          </div>
+          <div className={styles.publicationContainer}>
+            <Link href="https://iovs.arvojournals.org/article.aspx?articleid=2779820" style={{ textDecoration: 'none' }}>
+              <div className={styles.publicationInfo}>
+                <p className={styles.publicationTitle}>Artificial neural network-based classification of Age-related Macular Degeneration using gene expression profiles.</p>
+                <p className={styles.publicationAuthors}>Rinki Ratnapriya, Hosei Nakajima, Daniel Christl</p>
+                <p className={styles.publicationJournal}>Invest. Ophthalmol. Vis. Sci. 2022 Jun;:.doi:</p>
+              </div>
             </Link>
-          </li>
-        </ol>
+          </div>
+        </div>
       </div>
     </>
   );
