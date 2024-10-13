@@ -3,7 +3,7 @@
 .googleDocsIframeContainer {
   display: flex; 
   justify-content: center;
-  height: 1500px;
+  height: 1250px;
 }
 
 .googleDocsIframe {
@@ -11,7 +11,7 @@
   display: flex; 
   overflow: hidden;
   width: 835px;
-  height: 1500px;
+  height: 1250px;
 }
 
 
