@@ -4,7 +4,7 @@ import Head from 'next/head';
 export default function Footer () {
   console.log("footer.js loaded");
   return (
-    <footer className="inset-x-0 bottom-0 px-6 pt-6">
+    <footer className="flex justify-center inset-x-0 bottom-0 px-6 pt-6">
       <div className="flex justify-center py-6">
         <Link className="m-1 h-9 w-9" href="https://github.com/vyrms">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
