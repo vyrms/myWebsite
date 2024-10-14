@@ -30,10 +30,10 @@
 
 @media only screen and (max-width: 600px) {
   .googleDocsIframeContainer {
-    height: 1200px;
+    height: 1700px;
     margin-top: -350px;
   }
   .googleDocsIframe {
-    transform:scale(0.47);
+    transform:scale(0.45);
     }
 }
