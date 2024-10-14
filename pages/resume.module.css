@@ -32,7 +32,6 @@
   .googleDocsIframeContainer {
     height: 1200px;
     margin-top: -250px;
-    margin-left: 5px;
   }
   .googleDocsIframe {
     transform:scale(0.4);
