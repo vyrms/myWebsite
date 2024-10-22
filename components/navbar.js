@@ -18,8 +18,8 @@ export const menu = [
     path: "/publications"
   },
   {
-    name: "Blog",
-    path: "/blog"
+    name: "Projects",
+    path: "/projects"
   },
   {
     name: "Contact",

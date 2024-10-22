@@ -1,0 +1,38 @@
+.publicationContainer {
+  border: 1px;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.publicationContainer:hover {
+  background-color:ghostwhite;
+}
+
+.publicationTitle {
+  font-size: large;
+}
+
+.publicationAuthors {
+  font-size: smaller;
+  color: gray;
+}
+
+.publicationJournal {
+  font-size: small;
+  color: gray;
+}
+
+.publicationInfo {
+  overflow-wrap: break-word;
+  padding: 15px;
+}
+
+.publicationLink {
+  text-decoration: none;
+}
+
+.publicationList {
+  margin-top: 50px;
+}

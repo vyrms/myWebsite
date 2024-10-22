@@ -13,7 +13,6 @@ export default function Publications(){
       <div className="mx-10">
         <h1 className="mt-5 mb-3 text-3xl font-semibold tracking-tight text-center">Publications</h1>
 
-        {/* TODO add descriptions */}
         <div className={styles.publicationList}>
           <div className={styles.publicationContainer}>
             <Link href="https://doi.org/10.1016/j.ygeno.2021.04.020" style={{ textDecoration: 'none' }}>
