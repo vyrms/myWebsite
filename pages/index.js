@@ -23,7 +23,7 @@ export default function Home() {
           {/* image of me */}
           <Image
             priority
-            src="/profile1.jpg"
+            src="/profile.jpg"
             height={500}
             width={500}
             alt="MyPicture"
