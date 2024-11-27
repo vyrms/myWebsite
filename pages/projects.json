@@ -1,0 +1,33 @@
+[
+  {
+    "title": "My Website", 
+    "description": "This is the source code for this website.", 
+    "madewith": "Made with ReactJS and NextJs", 
+    "link": "https://github.com/vyrms/myWebsite"
+  },
+  {
+    "title": "Hotpot", 
+    "description": "A 2D side scrolling platformer game. Escape the hot pot and save the world!", 
+    "madewith": "Made with Javascript and Phaser", 
+    "link": "https://sherronthomas.itch.io/hotpot-team-12-public"
+  },
+  {
+    "title": "3000IQ Discord Bot", 
+    "description": "A discord bot that can learn conversations, pickup and read haiku, wiki search/ suggest, and many other things.", 
+    "madewith": "Made with Python", 
+    "link": "https://github.com/vyrms/Discord_bot1"
+  },
+  {
+    "title": "Loto6/ 7 Analysis", 
+    "description": "Analyzed Loto data to take a shortcut to becoming a millionaire.", 
+    "madewith": "Analyzed with R and Python", 
+    "link": "https://github.com/vyrms/loto_analysis"
+  },
+  {
+    "title": "Tick Tack Toe", 
+    "description": "A simple Tick Tack Toe game.", 
+    "madewith": "Made with ReactJS", 
+    "link": "/games/ticktacktoe"
+  }
+
+]

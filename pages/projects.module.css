@@ -1,4 +1,4 @@
-.publicationContainer {
+.projectContainer {
   border: 1px;
   border-style: solid;
   border-color: darkgray;
@@ -6,33 +6,33 @@
   margin: 15px;
 }
 
-.publicationContainer:hover {
+.projectContainer:hover {
   background-color:ghostwhite;
 }
 
-.publicationTitle {
+.projectTitle {
   font-size: large;
 }
 
-.publicationAuthors {
+.projectAuthors {
   font-size: smaller;
   color: gray;
 }
 
-.publicationJournal {
+.projectJournal {
   font-size: small;
   color: gray;
 }
 
-.publicationInfo {
+.projectInfo {
   overflow-wrap: break-word;
   padding: 15px;
 }
 
-.publicationLink {
+.projectLink {
   text-decoration: none;
 }
 
-.publicationList {
+.projectList {
   margin-top: 50px;
 }
