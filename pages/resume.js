@@ -13,7 +13,7 @@ export default function Resume () {
   	  <Head>
         <title>Resume - Hosei Nakajima</title>
       </Head>
-      <div>
+      <div className={styles.mainContainer}>
         <h1 className="mt-5 mb-0 text-3xl font-semibold tracking-tight text-center">Resume</h1>
         <div className={styles.googleDocsIframeContainer}>
           <iframe src={url} className={styles.googleDocsIframe}></iframe>
