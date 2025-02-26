@@ -154,7 +154,9 @@ export default function Ticktacktoe () {
   	  <Head>
         <title>Ticktacktoe - Hosei Nakajima</title>
       </Head>
-      <GameContainer />
+      <div className={styles.mainContainer}>
+        <GameContainer />
+      </div>
     </>
   )
 }

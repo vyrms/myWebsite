@@ -24,10 +24,10 @@
     "link": "https://github.com/vyrms/loto_analysis"
   },
   {
-    "title": "Tick Tack Toe", 
-    "description": "A simple Tick Tack Toe game.", 
+    "title": "Tic Tac Toe", 
+    "description": "A simple Tic Tac Toe game.", 
     "madewith": "Made with ReactJS", 
-    "link": "/games/ticktacktoe"
+    "link": "/games/tictactoe"
   }
 
 ]
