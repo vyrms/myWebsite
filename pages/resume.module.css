@@ -22,15 +22,15 @@
 
 @media only screen and (max-width: 768px) {
   .googleDocsIframeContainer {
-    height: 600px;
-    scale: 1 0.7;
+    height: 700px;
+    scale: 0.7 0.7;
     transform-origin: top center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .googleDocsIframeContainer {
-    height: 400px;
-    scale: 1 0.45;
+    height: 500px;
+    scale: 0.45 0.45;
   }
 }
