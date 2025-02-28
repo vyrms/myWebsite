@@ -23,7 +23,7 @@
 @media only screen and (max-width: 768px) {
   .googleDocsIframeContainer {
     height: 600px;
-    scale: 0.7 0.7;
+    scale: 1 0.7;
     transform-origin: top center;
   }
 }
@@ -31,6 +31,6 @@
 @media only screen and (max-width: 600px) {
   .googleDocsIframeContainer {
     height: 400px;
-    scale: 0.45 0.45;
+    scale: 1 0.45;
   }
 }
