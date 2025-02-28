@@ -17,12 +17,12 @@
 
 .googleDocsIframe {
   width: 835px;
-  height: 900px;
+  height: 950px;
 }
 
 @media only screen and (max-width: 768px) {
   .googleDocsIframeContainer {
-    height: 550px;
+    height: 600px;
     scale: 0.7 0.7;
     transform-origin: top center;
   }
@@ -30,7 +30,7 @@
 
 @media only screen and (max-width: 600px) {
   .googleDocsIframeContainer {
-    height: 350px;
+    height: 400px;
     scale: 0.45 0.45;
   }
 }
