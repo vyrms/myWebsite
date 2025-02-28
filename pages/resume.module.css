@@ -33,4 +33,8 @@
     height: 500px;
     scale: 0.45 0.45;
   }
+  .googleDocsIframe {
+    width: 835px;
+    height: 1200px;
+  }  
 }
